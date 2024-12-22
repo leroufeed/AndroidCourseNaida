@@ -2,4 +2,11 @@
 <resources>
 
     <style name="Theme.MusicPlayer" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="ImageView.CornerStyle" parent="">
+        <item name="cornerSizeTopRight">8dp</item>
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
 </resources>
